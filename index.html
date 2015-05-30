@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Accordify</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<script src="src/accordion.js"></script>
+<script>
+$( document ).ready(function() {
+//demo 1 where only one accordion can be open at a time	
+	$('.accordion-trigger').accordify({
+		singleOpen: true
+	});
+//demo 2 with multiple open accordions
+	$('.accordion-trigger2').accordify({
+		singleOpen: false
+	});
+
+});
+</script>
+	</head>
+
+	<body>
+	
+	<div id="container">
+		<h1>Open one at a time</h1>
+		<h2 class="accordion-trigger">Trigger 1</h2>
+		<ul class="accordion">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+			<li>Item 7</li>
+			<li>Item 8</li>
+		</ul>
+
+
+		<h2 class="accordion-trigger">Trigger 2</h2>
+		<ul class="accordion">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+			<li>Item 7</li>
+			<li>Item 8</li>
+		</ul>
+
+		<hr />
+		
+		<h1>Open any</h1>
+		<h2 class="accordion-trigger2">Trigger 1</h2>
+		<ul class="accordion">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+			<li>Item 7</li>
+			<li>Item 8</li>
+		</ul>
+
+
+		<h2 class="accordion-trigger2">Trigger 2</h2>
+		<ul class="accordion">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+			<li>Item 6</li>
+			<li>Item 7</li>
+			<li>Item 8</li>
+		</ul>
+	</div>
+	
+	</body>
+	</html>
+
