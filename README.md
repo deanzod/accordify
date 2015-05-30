@@ -7,6 +7,7 @@ Accordify.js is a simple barebones accordion plugin for jQuery with a few basic 
 - **src/accordify.js** - Main js plugin file
 - **css/style.css** - Basic style for demo including icon rotation
 - **index.html** - Simple demo
+- **images/plus-icon.png** - example open icon (rotates 45 degrees for close)
 
 ## Installation/Usage ##
 
