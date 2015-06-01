@@ -1,7 +1,7 @@
 # accordify.js - jQuery accordion plugin #
 
 Accordify.js is a simple barebones accordion plugin for jQuery with a few basic options.
-
+[DEMO](http://www.deanblog.co.uk/article/17/accordify-js-a-simple-jquery-accordion-plugin)
 ## Source files ##
 
 - **src/accordify.js** - Main js plugin file
