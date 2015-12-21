@@ -14,7 +14,7 @@ Accordify.js is a simple barebones accordion plugin for jQuery with a few basic 
 Include the latest version of jQuery along with the plugin file:
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="src/accordion.js"></script>
+<script src="src/accordify.js"></script>
 ```
 
 Set a trigger class or id on your trigger element:
